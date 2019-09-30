@@ -1,5 +1,5 @@
 % Input Folder containing POSCAR files data
-POSCAR_folder = 'C:\Users\Asma\Desktop\POSCAR2mat\POSCAR_data';
+POSCAR_folder = 'POSCAR_data';
 % Initialize mat file
 MH = []
 for i=1:8
@@ -72,7 +72,7 @@ end
 clearvars filename delimiter formatSpec fileID d dataArray abc  M weights atoms  file coord sz sz1 sz2  H  Z POSCAR_folder  i ii labels output POSCAR  str x y ans;
 %% Convert and save POSCAR data into .mat file
 % CrystalGAN input file
-%save('MH', 'MH')
+save('MH', 'MH')
 
 
 
